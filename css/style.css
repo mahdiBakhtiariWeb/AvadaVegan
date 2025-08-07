@@ -1,0 +1,82 @@
+.w-img{
+   width: 200px;
+}
+.position-icon{
+   position: relative;
+   left: 80px;
+   
+}
+.hover-li:hover{
+color: orange;
+}
+.mt-section{
+   margin-top: 30px;
+}
+.mt-section1{
+   margin-top: 100px;
+}
+.p-right{
+padding-right: 800px;
+}
+.p-right1{
+   padding-right: 650px ;
+}
+.sub{
+   border: 1px solid orangered;
+   
+}
+.sub:hover{
+   color: orangered;
+   background-color: black;
+}
+.bg-orangered{
+   background-color: orangered;
+}
+.w-paragraph{
+   width: 600px;
+}
+.w-450px{
+   width: 450px;
+}
+.item{
+   transition: all 1s;
+}
+.item:hover{
+border: 1px solid rgb(6, 63, 168);
+}
+.text-orangered{
+   color: orangered;
+   transition: all .3s;
+}
+.text-orangered:hover{
+   color: rgb(39, 82, 212);
+}
+  
+.bg-section{
+   background: rgb(45,95,199);
+   background: linear-gradient(100deg, rgba(45,95,199,1) 32%, rgba(13,79,144,1) 61%, rgba(11,3,143,1) 98%);
+}
+.w-img2{
+   width: 70px;
+}
+.w-item{
+   width: 500px;
+
+}
+.my-li{
+transition: all .5s;
+}
+.my-li:hover{
+   color: orangered;
+}
+.w-item2{ 
+   width: 850px;
+}
+.b-shadow{
+   box-shadow: 3px 3px 11px darkgray;
+}
+.bg-section2{
+ background: rgb(48,46,46);
+ background: linear-gradient(100deg, rgba(48,46,46,1) 15%, rgba(34,34,41,1) 49%, rgba(20,24,29,1) 78%);
+}
+

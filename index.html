@@ -1,0 +1,737 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Avada Vegan</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&family=Josefin+Sans:ital,wght@0,100..700;1,100..700&family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap"
+        rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <marquee behavior="scroll" direction="left" class="d-none d-md-block">
+        Special Offer : Get 35% Discount Code ‘VEGAN35’ ★ Free Shipping on orders above $100 ★ Special Offer : Get 35%
+        Discount Code ‘VEGAN35’ ★Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsa ex velit asperiores
+        tempora voluptatibus beatae!
+    </marquee>
+    <header>
+        <div class="sec-1">
+            <img src="assets/images/logo-avada-vegan-store-400x85.webp" alt="">
+            <span>
+                <i class="bi bi-person-fill icon-size"></i>
+                <i class="bi bi-cart2 icon-size"></i>
+                <i class="bi bi-list icon-size fw-bold" data-bs-toggle="offcanvas" data-bs-target="#offnav"></i>
+            </span>
+        </div>
+        <div class="offcanvas offcanvas-start overflow-auto" id="offnav">
+
+            <div class="d-flex justify-content-between align-items-center p-4">
+                <img src="assets/images/logo-avada-vegan-store-400x85.webp" class="w-50" alt="">
+                <i class="bi bi-x fs-1 close " data-bs-dismiss="offcanvas"></i>
+            </div>
+           
+
+            <ul class="list-unstyled p-4 drop-list2">
+                <li class="py-3 fw-bold">
+                    Home Page</li>
+                <li class="py-3 fw-bold">Home Page Alternate</li>
+                <li class="py-3 fw-bold " id="icon-list">Categories</li>
+
+                <li class="py-3 fw-bold">Vegan Products</li>
+                <li class="py-3 fw-bold">About Store</li>
+                <li class="py-3 fw-bold">News & Recipes</li>
+                <li class="py-3 fw-bold">Contact</li>
+
+
+
+                <li>
+                    <hr>
+                </li>
+
+
+                <h3 class="py-3">
+                    Get in Touch
+                </h3>
+                <p>123 Main Street, Queens, NY 11435</p>
+                <p>Phone: +1 800 555 5555</p>
+                <p>Email: contact@avada-company.com</p>
+                <div class="d-flex align-items-center justify-content-start gap-4 fs-4">
+                    <i class="bi bi-facebook"></i>
+                    <i class="bi bi-instagram"></i>
+                    <i class="bi bi-twitter-x"></i>
+                    <i class="bi bi-youtube"></i>
+                </div>
+
+            </ul>
+
+
+        </div>
+
+
+
+        <form action="#" id="form" class="mb-3 mb-md-0">
+            <input type="text" id="search" placeholder="search a product ...">
+            <button>
+                <i class="bi bi-search"></i>
+            </button>
+
+
+
+        </form>
+
+
+    </header>
+
+
+    <nav class="d-none d-md-flex justify-content-between align-items-center mt-3">
+        <button id="categories">
+            categories <i class="bi bi-arrow-down"></i>
+        </button>
+
+        <ul>
+
+            <li>home <i class="bi bi-arrow-down"></i></li>
+            <li>shop</li>
+            <li>Hot deals <i class="bi bi-arrow-down"></i></li>
+            <li>more <i class="bi bi-arrow-down"></i></li>
+            <li>news</li>
+            <li>contact</li>
+        </ul>
+
+        <p class="text-white">
+            order by phone
+            <br>
+            5555-12-16
+        </p>
+    </nav>
+
+
+    <ul class="drop-list hidden">
+        <li>
+            <img src="assets/images/avada-vegan-1.png" alt="">
+            Vegan Food & Drinks
+        </li>
+        <li>
+            <img src="assets/images/avada-vegan-1.png" alt="">
+            Pet Care Items
+        </li>
+        <li>
+            <img src="assets/images/avada-vegan-1.png" alt="">
+            Fitness & Nutrition
+        </li>
+        <li>
+            <img src="assets/images/avada-vegan-1.png" alt="">
+            Beauty & Care
+        </li>
+        <li>
+            <img src="assets/images/avada-vegan-1.png" alt="">
+            Clothes & Accessories
+        </li>
+    </ul>
+
+    <main class="overflow-hidden">
+        <section>
+
+            <div class="row b-img">
+                <div>
+                    <h1>
+                        organic vegan lifestyle
+                    </h1>
+                    <p class="mt-md-5">
+                        Get into the Plant-Powered world!
+                    </p>
+
+
+
+                    <div class="mt-md-5">
+
+
+                        <button class=" org-btn">All Products <i class="bi bi-arrow-right"></i></button>
+
+
+                        <button class="white-btn">Learn More <i class="bi bi-arrow-right"></i></button>
+
+
+                    </div>
+
+
+
+                </div>
+
+
+            </div>
+
+        </section>
+
+        <section class="down-bg container d-md-flex justify-content-between flex-column flex-md-row column-gap-4 py-4">
+            <div class="text-center d-flex align-items-center justify-content-center gap-5 flex-md-row flex-column">
+
+                <i class="bi bi-truck"></i>
+                <span>
+                    <h3>
+                        fastest delivery</h3>
+                    <p>Lorem ipsum dolor sit amet.</p>
+                </span>
+
+
+            </div>
+
+            <div class="text-center d-flex flex-column flex-md-row align-items-center justify-content-center gap-5">
+
+                <i class="bi bi-gem"></i>
+                <span>
+                    <h3>
+
+                        quality products
+                    </h3>
+                    <p>Lorem ipsum dolor sit amet.</p>
+                </span>
+            </div>
+            <div
+                class="text-center d-flex flex-column flex-md-row align-items-center justify-content-center column-gap-5 row-gap-5">
+
+                <i class="bi bi-wallet"></i>
+
+                <span>
+                    <h3>
+                        secure payments
+                    </h3>
+                    <p>Lorem ipsum dolor sit amet.</p>
+                </span>
+            </div>
+        </section>
+
+        <section
+            class="item-4 container  d-flex flex-column flex-md-row justify-content-between align-items-center gap-4 py-4 px-3 flex-wrap justify-content-md-evenly col-12">
+            <div class="col">
+                <img src="assets/images/vegan-food-drinks-600x600.jpg" alt="">
+                <h4 class="mt-4">vegan food & drink</h4>
+            </div class="col">
+            <div class="col">
+                <img src="assets/images/vegan-grocery-items-600x600.jpg" alt="">
+                <h4 class="mt-4">vegan grocery items</h4>
+            </div>
+            <div class="col">
+                <img src="assets/images/vegan-diet-nutrition-600x600.jpg" alt="">
+                <h4 class="mt-4">fitness & nutrition</h4>
+            </div>
+            <div class="col">
+                <img src="assets/images/vegan-beauty-care-600x600.jpg" alt="">
+                <h4 class="mt-4">vegan beauty & care</h4>
+            </div>
+        </section>
+
+        <h2 class="text-center fs-2">
+            shop new arrivals
+        </h2>
+        <section
+            class="w-100 mt-5 d-flex flex-md-row justify-content-between container-md gap-5 align-items-center flex-column flex-wrap justify-content-md-evenly mb-5">
+
+            <div class="product col">
+                <span class="shild2">
+                    <img src="assets/images/bakery-cake-1.jpg" class="w-100" alt="">
+
+                </span>
+
+
+                <a href="#" class="text-decoration-none text-success d-block  mt-4">Vegan food & Drinks</a>
+                <h3 class="mt-4 fs-4">Fresh Organic Cake</h3>
+                <p class="mt-4 text-danger fw-bold">
+                    $9.00
+
+                    22% Off</p>
+                <button class=" ">
+                    <i class="bi bi-cart2 icon-size"></i>
+                    Add to cart
+                </button>
+            </div>
+            <div class="product2 col">
+                <span class="shild2">
+                    <img src="assets/images/nutrition-diet-shake-1.jpg" class="w-100" alt="">
+                </span>
+
+
+
+                <a href="#" class="text-decoration-none text-success d-block  mt-2">Fitness & Nutrition</a>
+                <h3 class="mt-3 fs-4">Vegan Diet Shake</h3>
+                <p class="text-secondry">
+                    Complete diet and nutrition for all
+                </p>
+                <p class="mt-3 text-danger fw-bold">
+                    $26.00 – $34.00</p>
+                <h6 class="text-secondary">
+                    flavor
+                </h6>
+                <button id="btn-1">caramel</button>
+                <button id="btn-2">vanilla</button>
+                <p id="price">26.00</p>
+                <button class="cart ">
+                    <i class="bi bi-cart2 icon-size"></i>
+                    Add to cart
+                </button>
+            </div>
+            <div class="product3 col">
+
+                <span class="shild2">
+                    <img src="assets/images/accessories-leather-bag-1.jpg" class="w-100" id="img-card" alt="">
+                </span>
+
+
+
+                <a href="#" class="text-decoration-none text-success d-block  mt-2">Clothes & Accessories</a>
+                <h3 class="mt-3 fs-4">Leather Vegan Bag
+                </h3>
+                <p class="text-secondry">
+                    100% authentic leather quality
+                </p>
+                <p class="mt-3 text-danger fw-bold">
+                    $16.00</p>
+                <h6 class="text-secondary">
+                    color
+                </h6>
+                <button class="bg-warning circle" id="yellow"></button>
+                <button class="bg-danger circle" id="red"></button>
+                <button class="bg-primary circle" id="purple"></button>
+
+                <button class="cart ">
+                    <i class="bi bi-cart2 icon-size"></i>
+                    Add to cart
+                </button>
+            </div>
+        </section>
+
+        <section class=" doc-1 container col-12 ">
+            <div
+                class="m-auto m-md-5 d-flex flex-column justify-content-center align-items-center gap-3 flex-md-row justify-content-md-between">
+                <div>
+                    <h3 class="text-success fs-1">Ready-to-eat vegan meals</h3>
+                    <p class="text-white fs-4">Innovative flavors and rich in essential nutrients</p>
+                </div>
+
+                <button class="btn-doc text-success">shop now</button>
+            </div>
+        </section>
+
+
+
+        <section class="slider pb-4 w-100">
+            <div class="container w-100">
+                <div class="row d-flex gap-3 flex-row ">
+                    <div class="bg-orange d-flex flex-column justify-content-between py-5">
+                        <p class="fw-bold fs-2 text-white p-4">
+                            buy the finest vegan drinks & beverages
+                        </p>
+                        <button class="btn-doc">
+                            shop more
+                            <i class="bi bi-arrow-right"></i>
+                        </button>
+                    </div>
+                    <div class="bg-white1 d-flex justify-content-center ">
+                        <div class="swiper mySwiper">
+                            <div class="swiper-wrapper">
+                                <div class="swiper-slide ">
+                                    <div
+                                        class="slide1 d-flex flex-column justify-content-center align-items-center marginslider gap-4">
+                                        <img src="assets/images/beverages-mango-juice-400x300.jpg" class="rounded-3"
+                                            alt="">
+                                        <a href="" class="davood">Vegan Food & Drinks</a>
+                                        <h4 class="fw-bold text-black d-block">Mango Turmeric Juice</h4>
+                                        <p class="text-danger"> $34.00.
+                                        </p>
+                                        <button class="cart2">Add to Cart
+                                            <i class="bi bi-cart2 icon-size"></i>
+                                        </button>
+                                    </div>
+                                </div>
+                                <div class="swiper-slide ">
+                                    <div
+                                        class="slide1 d-flex flex-column justify-content-center align-items-center marginslider gap-4">
+                                        <img src="assets/images/beverages-organic-coffee-400x300.jpg" class="rounded-3"
+                                            alt="">
+                                        <a href="" class="davood">Vegan Food & Drinks</a>
+                                        <h4 class="fw-bold text-black d-block kos">Organic Cold Coffee</h4>
+                                        <p class="text-danger"> $28.00
+                                        </p>
+                                        <button class="cart2">Add to Cart
+                                            <i class="bi bi-cart2 icon-size"></i>
+                                        </button>
+                                    </div>
+                                </div>
+                                <div class="swiper-slide ">
+                                    <div
+                                        class="slide1 d-flex flex-column justify-content-center align-items-center marginslider gap-4">
+                                        <img src="assets/images/beverages-raspberry-leaves-tea-400x300.jpg"
+                                            class="rounded-3" alt="">
+                                        <a href="" class="davood">Vegan Food & Drinks</a>
+                                        <h4 class="fw-bold text-black d-block ">Raspberry Leaves Tea</h4>
+                                        <p class="text-danger"> $23.50
+                                        </p>
+                                        <button class="cart2">Add to Cart
+                                            <i class="bi bi-cart2 icon-size"></i>
+                                        </button>
+                                    </div>
+                                </div>
+
+                                <div class="swiper-slide ">
+                                    <div
+                                        class="slide1 d-flex flex-column justify-content-center align-items-center marginslider gap-4">
+                                        <img src="assets/images/beverages-red-wine-400x300.jpg" class="rounded-3"
+                                            alt="">
+                                        <a href="" class="davood">Vegan Food & Drinks</a>
+                                        <h4 class="fw-bold text-black d-block ">Pleasant Red Wine</h4>
+                                        <p class="text-danger"> $349.00
+                                        </p>
+                                        <button class="cart2">Add to Cart
+                                            <i class="bi bi-cart2 icon-size"></i>
+                                        </button>
+                                    </div>
+                                </div>
+                                <div class="swiper-slide ">
+                                    <div
+                                        class="slide1 d-flex flex-column justify-content-center align-items-center marginslider gap-4">
+                                        <img src="assets/images/beauty-perfume-1-400x300.jpg" class="rounded-3" alt="">
+                                        <a href="" class="">Vegan Food & Drinks</a>
+                                        <h4 class="fw-bold text-black d-block ">Tom Ford Perfume</h4>
+                                        <p class="text-danger"> $78.00
+                                        </p>
+                                        <button class="cart2">Add to Cart
+                                            <i class="bi bi-cart2 icon-size"></i>
+                                        </button>
+                                    </div>
+                                </div>
+                                <div class="swiper-slide">
+                                    <div
+                                        class="slide1 d-flex flex-column justify-content-center align-items-center marginslider gap-4">
+                                        <img src="assets/images/beauty-cosmetic-foundation.jpg" class="rounded-3"
+                                            alt="">
+                                        <a href="" class="davood">Vegan Food & Drinks</a>
+                                        <h4 class="fw-bold text-black d-block ">cesar cover
+                                            (adults)
+                                        </h4>
+                                        <p class="text-danger"> $83.00
+                                        </p>
+                                        <button class="cart2">Add to Cart
+                                            <i class="bi bi-cart2 icon-size"></i>
+                                        </button>
+                                    </div>
+                                </div>
+                                <div class="swiper-slide ">
+                                    <div
+                                        class="slide1 d-flex flex-column justify-content-center align-items-center marginslider gap-4">
+                                        <img src="assets/images/beverages-mango-juice-400x300.jpg" class="rounded-3"
+                                            alt="">
+                                        <a href="" class="davood">Vegan Food & Drinks</a>
+                                        <h4 class="fw-bold text-black d-block">Mango Turmeric Juice</h4>
+                                        <p class="text-danger"> $34.00.
+                                        </p>
+                                        <button class="cart2">Add to Cart
+                                            <i class="bi bi-cart2 icon-size"></i>
+                                        </button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+        </section>
+
+
+
+        <section
+            class="d-flex marginsec px-4 flex-column justify-content-start align-items-start gap-3 flex-md-row h-100">
+            <div class="product4 p-3 d-flex flex-column  justify-content-center gap-2 h-100">
+                <span class="shild w-100">
+                    <img src="assets/images/beauty-cosmetic-body-lotion-600x450.jpg" alt="">
+                </span>
+
+                <h3>Organic Body lotion</h3>
+                <p class="fw-bold text-danger">$48.00 – $56.00</p>
+                <p>size</p>
+                <span class="d-flex g-2">
+                    <button class="w-25" id="btn3">14oz</button>
+                    <button class="w-25" id="btn4">20oz</button></span>
+                <p class="price2 text-success mt-2">$48.00</p>
+                <button class="d-block cart4 mt-3">
+                    <i class="bi bi-cart2 icon-size">
+
+                    </i>
+                    Add To Cart
+                </button>
+            </div>
+            <div class="product4  p-3 d-flex flex-column  justify-content-center gap-2">
+                <span class="shild w-100">
+                    <img src="assets/images/food-breakfast-rolls-600x450.jpg" alt="">
+                </span>
+
+                <h3>Vegan Breakfast Rolls</h3>
+                <p class="fw-bold text-danger mt-4">$48.00 – $56.00</p>
+                <p>size</p>
+                <!-- <button class="w-25" id="btn3">14oz</button>
+                <button class="w-25" id="btn4">20oz</button> -->
+                <p class="price2">$3.20</p>
+                <button class="d-block cart5 mt-3 mt-lg-5 ">
+                    <i class="bi bi-cart2 icon-size">
+
+                    </i>
+                    Add To Cart
+                </button>
+            </div>
+            <div class="product4  p-3 d-flex flex-column  justify-content-center gap-2">
+                <span class="shild w-100">
+                    <img src="assets/images/food-vegan-cheese-600x450.jpg" class="" alt="">
+                </span>
+
+                <h3>Vegan Cheese Trio vegan</h3>
+                <p class="fw-bold text-danger mt-md-4 mt-lg-0">$48.00 – $56.00</p>
+                <p>size</p>
+                <!-- <button class="w-25" id="btn3">14oz</button>
+                <button class="w-25" id="btn4">20oz</button> -->
+                <p class="price2 my-md-3 my-lg-0">$12.80 </p>
+                <button class="d-block cart5 mt-lg-5">
+                    <i class="bi bi-cart2 icon-size">
+
+                    </i>
+                    Add To Cart
+                </button>
+            </div>
+
+
+            <div class="product4 p-3 d-flex flex-column  justify-content-center gap-2 h-100">
+                <span class="shild w-100">
+                    <img src="assets/images/nutrition-omega3-capsules-400x300.jpg" alt="">
+                </span>
+
+                <h3>Omega Capsules</h3>
+                <p class="fw-bold text-danger">$48.00 – $56.00</p>
+                <p>size</p>
+                <span>
+                    <button class="w-25" id="btn3">30cap</button>
+                    <button class="w-25" id="btn4">60cap</button></span>
+                <p class="price2">$280.00 – $350.00</p>
+                <button class="d-block cart4 mt-4 mt-lg-4">
+                    <i class="bi bi-cart2 icon-size">
+
+                    </i>
+                    Add To Cart
+                </button>
+            </div>
+        </section>
+
+
+
+
+        <section class=" d-flex px-4 flex-column justify-content-center align-items-center gap-3 flex-md-row ">
+            <div class="product4 p-3 d-flex flex-column  justify-content-center gap-2">
+                <span class="shild w-100">
+                    <img src="assets/images/clothes-acc-vegan-beanie-cap.jpg" alt="">
+                </span>
+
+                <h3>Soft Beanie Hat</h3>
+                <p class="fw-bold text-danger">$3.50</p>
+                <p>
+                    Color</p>
+                <button class=" btn-3" id="btn3"></button>
+                <button class=" btn-4" id="btn4"></button>
+                <p class="price2 text-success">$5.00</p>
+                <button class="d-block cart4 mt-2">
+                    <i class="bi bi-cart2 icon-size ">
+
+                    </i>
+                    Add To Cart
+                </button>
+            </div>
+            <div class="product4 p-3 d-flex flex-column  justify-content-center gap-2">
+                <span class="shild w-100">
+                    <img src="assets/images/clothes-jacket-1-600x450.jpg" alt="">
+                </span>
+
+                <h3>Vegan Puffer Jacket</h3>
+                <p class="fw-bold text-danger">$48.00 – $56.00</p>
+                <p>size</p>
+                <div class="d-flex gap-2">
+                    <button class="w-25" id="btn5">S</button>
+                    <button class="w-25" id="btn4">M</button>
+                    <button class="w-25" id="btn5">L</button>
+                </div>
+
+                <p class="price2"></p>
+                <button class="d-block cart4 mt-5">
+                    <i class="bi bi-cart2 icon-size">
+
+                    </i>
+                    Add To Cart
+                </button>
+            </div>
+            <div class="product4 h-75 p-3 d-flex flex-column  justify-content-center gap-1">
+                <span class="shild w-100">
+                    <img src="assets/images/clothes-acc-straight-fit-jeans.jpg" alt="">
+                </span>
+
+                <h3>Pant Vegan jeans</h3>
+                <p class="fw-bold text-danger">$110.00 – $150.00</p>
+                <p>size</p>
+                <button class="w-25" id="btn3">1kg</button>
+                <button class="w-25" id="btn4">2kg</button>
+                <p class="price2 text-success">$110.00</p>
+                <button class="d-block cart4 mt-2">
+                    <i class="bi bi-cart2 icon-size">
+
+                    </i>
+                    Add To Cart
+                </button>
+            </div>
+            <div class="product4 cate4 p-3 d-flex flex-column  justify-content-center gap-2 h-100">
+                <span class="shild w-100">
+                    <img src="assets/images/pet-cat-food-adult-600x450.jpg" class="" alt="">
+                </span>
+
+                <h3>Adult Cat Food</h3>
+                <p class="fw-bold text-danger mt-1">$6.00 – $9.00</p>
+                <p>size</p>
+                <span class="mb-4">
+                    <button class="w-25 col-5" id="btn3">1kg</button>
+                    <button class="w-25 col-5" id="btn4">500g</button>
+                </span>
+
+                <p class="price2 text-success mb-3">$8.00</p>
+                <button class="d-block cart4  ">
+                    <i class="bi bi-cart2 icon-size">
+
+                    </i>
+                    Add To Cart
+                </button>
+            </div>
+        </section>
+
+
+
+
+
+
+        <div class="container d-flex justify-content-between align-items-center px-4 mt-5">
+            <h2 class="fw-bold fs-2">vegan news & articles</h2>
+            <button class="org-btn">read more articles
+                <i class="bi bi-arrow-right"></i>
+            </button>
+        </div>
+        <section class="d-flex flex-column justify-content-center align-items-center gap-3 flex-md-row mt-4">
+            <div class="product5">
+                <img src="assets/images/blog-digestive-health-01-600x376.jpg" alt="">
+                <h5 class="fs-3 p-2 a-hover">Discover the best vegan foods for digestive health</h5>
+                <p class="fs-5 p-2 text-secondary">Nellus ornare orcid neque congue dui tesque morbi sed tempore ...</p>
+                <hr>
+                <a href="#" class="text-decoration-none text-success ">April 23, 2024
+                    |
+                    Health & Wellness</a>
+            </div>
+            <div class="product5">
+                <img src="assets/images/blog-vegan-lifestyle-04-600x376.jpg" alt="">
+                <h5 class="fs-3 p-2 a-hover">Nourish your body & soul, Get vegan lifestyle</h5>
+                <p class="fs-5 p-2 text-secondary">Nellus ornare orcid neque congue dui tesque morbi sed tempore ...</p>
+                <hr>
+                <a href="#" class="text-decoration-none text-success ">April 23, 2024
+                    |
+                    Health & Wellness</a>
+            </div>
+            <div class="product5">
+                <img src="assets/images/blog-vegan-food-usa-01-600x376.jpg" alt="">
+                <h5 class="fs-3 p-2 a-hover">Vegan food in USA, The 10 must visit places</h5>
+                <p class="fs-5 p-2 text-secondary">Nellus ornare orcid neque congue dui tesque morbi sed tempore ...</p>
+                <hr>
+                <a href="#" class="text-decoration-none text-success ">April 23, 2024
+                    |
+                    Vegan Lifestyle</a>
+            </div>
+        </section>
+
+
+
+
+        <section class="mt-5 bg-onion d-flex flex-column align-items-center justify-content-center gap-5">
+            <p>A Vegan Haven for Heartful Living</p>
+            <h2>ethical eats
+                Vegan Store Logo White
+                sustainable treats
+                dive into vegan delights</h2>
+            <button class="gre-btn">shop vegan items
+                <i class="bi bi-arrow-right"></i>
+            </button>
+        </section>
+    </main>
+
+
+    <footer class="container d-md-flex justify-content-between align-items-center mt-4
+gap-1">
+        <div class="doc-f">
+            <img class="w-100" src="assets/images/logo-avada-vegan-store-400x85.webp" alt="">
+            <p class="text-secondary mt-3">
+                Signup for 10% off your first purchase & more products discounts
+            </p>
+            <input type="text" placeholder="enter your email...">
+            <button class="mt-2">
+                subscribe now
+            </button>
+        </div>
+        <ul class="list-unstyled f-list ps-5 ms-md-5">
+            <h5 class="fw-bold my-4 ms-2">shop</h5>
+            <li>food & drinks</li>
+            <li>Vegan Grocery</li>
+            <li>Vegan Grocery</li>
+            <li>Pet Care Items</li>
+            <li>Fitness & Nutrition</li>
+            <li>Vegan Ready Meals</li>
+        </ul>
+        <ul class="list-unstyled f-list ps-5">
+            <h5 class="fw-bold my-4 ms-2">About</h5>
+            <li>Vegan Store</li>
+            <li>Special Offers</li>
+            <li>News & Recipes</li>
+            <li>Contact</li>
+            <li>Refund Policy</li>
+            <li>Delivery Information</li>
+        </ul>
+        <div class="ps-5 me-4">
+            <h6 class="fs-3">get in touch</h6>
+            <p>Order by phone</p>
+            <p class="fs-3 text-success fw-bold">+1 800 555 5555</p>
+            <a href="#" class="text-decoration-none text-secondary">sales@avada-company.com</a>
+            <span class="d-block icon-pan mt-4">
+                <i class="bi bi-facebook"></i>
+                <i class="bi bi-instagram"></i>
+                <i class="bi bi-twitter-x"></i>
+                <i class="bi bi-youtube"></i>
+            </span>
+        </div>
+
+
+    </footer>
+    <p class="text-center p-5">
+        © Copyright 2012 - 2025 • Avada is a Website Builder for WordPress and eCommerce • All Rights Reserved •
+        Developed by MahdiBakhtiari
+    </p>
+    <img class="d-block m-auto" src="assets/images/cards-footer-1.webp" alt="">
+    <p class="text-center mt-3">Vegan Products are 100% Plant-Based and Safe for Human Health and Environment.</p>
+
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script src="script.js"></script>
+</body>
+
+</html>
